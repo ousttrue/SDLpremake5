@@ -92,7 +92,7 @@ do
         SDL_DIR.."src/libm/math.h",
         SDL_DIR.."src/libm/math_private.h",
         SDL_DIR.."src/render/mmx.h",
-        SDL_DIR.."-"resource.h",
+        --SDL_DIR.."resource.h",
         SDL_DIR.."src/audio/SDL_audio_c.h",
         SDL_DIR.."src/audio/SDL_audiodev_c.h",
         SDL_DIR.."src/audio/SDL_audiomem.h",

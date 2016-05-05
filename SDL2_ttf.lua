@@ -18,8 +18,8 @@ do
         SDL2_ttf_DIR.."SDL_ttf.c",
     }
     includedirs {
-        "../SDL2-2.0.4/include",
-        "../freetype-2.6.3/include",
+        "SDL2-2.0.4/include",
+        "freetype-2.6.3/include",
     }
     defines {
         "WIN32",

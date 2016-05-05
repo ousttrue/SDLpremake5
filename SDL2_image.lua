@@ -1,4 +1,4 @@
-SDL2_image_DIR="SDL2_image-2.0.1"
+SDL2_image_DIR="SDL2_image-2.0.1/"
 
 project "SDL2_image"
 do
@@ -19,7 +19,7 @@ do
         SDL2_image_DIR.."IMG_*.c",
     }
     includedirs {
-        "../SDL2-2.0.4/include",
+        "SDL2-2.0.4/include",
     }
     defines {
         "WIN32",

@@ -1,4 +1,4 @@
-SDL2_gfx_DIR="SDL2_gfx_1.0.1/"
+SDL2_gfx_DIR="SDL2_gfx-1.0.1/"
 
 project "SDL2_gfx"
 do
@@ -18,7 +18,7 @@ do
         SDL2_gfx_DIR.."*.c",
     }
     includedirs {
-        "../SDL2-2.0.4/include",
+        "SDL2-2.0.4/include",
     }
     defines {
         "WIN32",
