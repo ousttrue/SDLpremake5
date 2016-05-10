@@ -317,6 +317,8 @@ do
         "imm32",
         "version",
         "kernel32",
+        --"vcruntime",
+        "ucrtd",
     }
 end
 
