@@ -64,12 +64,15 @@ excludes {
 defines {
     --"_LIB",
     "FT2_BUILD_LIBRARY",
+    'FT_CONFIG_OPTION_SYSTEM_ZLIB',
 }
 includedirs {
     FREETYPE_DIR.."include",
+    ZLIB_DIR,
 }
 buildoptions {
 }
 links {
+    'zlib',
 }
 

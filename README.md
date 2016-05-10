@@ -7,12 +7,12 @@ Windows10(64bit) + Anaconda版Python3.5(64bit)で動作確認。
 * VisualStudio2015
 
 # 履歴
+* 20160510 Debugビルド対応(freetypeのzlib)
 * 20160510 libpng対応
 * download.py追加
 * パス間違い修正
 
 # ToDo
-* [ ]Release/Win64版しかビルドできない
 * [o]libpng
 * [ ]libjpeg
 * [ ]libtiff
