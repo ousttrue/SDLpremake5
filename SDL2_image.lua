@@ -20,6 +20,8 @@ do
     }
     includedirs {
         "SDL2-2.0.4/include",
+        ZLIB_DIR,
+        LIBPNG_DIR,
     }
     defines {
         "WIN32",
@@ -30,7 +32,7 @@ do
         --"LOAD_JPG_DYNAMIC=libjpeg-9.dll",
         "LOAD_LBM",
         "LOAD_PCX",
-        --"LOAD_PNG",
+        "LOAD_PNG",
         --"LOAD_PNG_DYNAMIC=libpng16-16.dll",
         "LOAD_PNM",
         "LOAD_TGA",
@@ -40,13 +42,13 @@ do
         --"LOAD_WEBP_DYNAMIC=libwebp-4.dll",
         "LOAD_XPM",
         "LOAD_XV",
-        --PNG_USE_DLL
-        --ZLIB_DLL
+        "PNG_USE_DLL",
+        "ZLIB_DLL",
     }
     buildoptions { "/wd4996" }
     libdirs {}
     links {
-        "SDL2",
+        "SDL2", "zlib", "libpng",
     }
 end
 

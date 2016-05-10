@@ -1,5 +1,8 @@
 /build/
 /freetype-*/
 /zlib-*/
+/libpng-*/
 /SDL2*/
 *.zip
+*.tar.*
+

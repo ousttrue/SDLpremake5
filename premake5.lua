@@ -35,6 +35,7 @@ filter {"platforms:Win64", "configurations:Release" }
 
 dofile "zlib.lua"
 dofile "freetype.lua"
+dofile "libpng.lua"
 dofile "SDL2.lua"
 dofile "SDL2_gfx.lua"
 dofile "SDL2_image.lua"
